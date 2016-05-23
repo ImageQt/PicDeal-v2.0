@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/PicDeal.ico</file>
+        <file>resources/openfile_24px.ico</file>
+        <file>resources/Savefile_24px.ico</file>
+        <file>resources/revoke_24px.ico</file>
+        <file>resources/redo_24px.ico</file>
+        <file>resources/editcut_24px.ico</file>
+        <file>resources/rotate_256px.ico</file>
+        <file>resources/zoom_24px.ico</file>
+        <file>resources/contrast_24px.ico</file>
+        <file>resources/Camera_24px.ico</file>
+        <file>resources/Zoomin_24px.ico</file>
+        <file>resources/Zoomout_24px.ico</file>
+        <file>resources/Zoomre_24px.ico</file>
+        <file>resources/face_scan_24px.ico</file>
+    </qresource>
+</RCC>

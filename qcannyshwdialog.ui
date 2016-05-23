@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QCannyShwDialog</class>
+ <widget class="QDialog" name="QCannyShwDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>761</width>
+    <height>497</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Canny边缘检测结果</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="picdealsrc.qrc">
+    <normaloff>:/resources/PicDeal.ico</normaloff>:/resources/PicDeal.ico</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1" colspan="2">
+    <widget class="QLabel" name="cannyshow">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QPushButton" name="BNSAVE">
+     <property name="text">
+      <string>导出</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QPushButton" name="BNEXIT">
+     <property name="text">
+      <string>关闭</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="picdealsrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QPescolDialog</class>
+ <widget class="QDialog" name="QPescolDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>330</width>
+    <height>264</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>假彩色变换</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="picdealsrc.qrc">
+    <normaloff>:/resources/PicDeal.ico</normaloff>:/resources/PicDeal.ico</iconset>
+  </property>
+  <widget class="QRadioButton" name="RGB">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RGB</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="RBG">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>100</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>RBG</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="BRG">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>150</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BRG</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="BGR">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>50</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BGR</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="GRB">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>100</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>GRB</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="GBR">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>150</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>GBR</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BNOK">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>210</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BNCAL">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>210</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="picdealsrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
